@@ -17,3 +17,6 @@ public class StudentRecordTester
     }
     
 }
+/**
+ * Finished Part 1 ;) 10/21/19
+ */
