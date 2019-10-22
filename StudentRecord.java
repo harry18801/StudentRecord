@@ -30,7 +30,7 @@ public class StudentRecord
       {
         sum+=scores[i];
         }
-      return (double)sum/(last-first+1);
+      return sum/(last-first+1);
       
      
    }
