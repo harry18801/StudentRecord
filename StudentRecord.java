@@ -48,7 +48,7 @@ public class StudentRecord
         }
         
         }
-      return false; //here so the class compiles
+      return true; //here so the class compiles
    }  
    
    /** if the values in scores have imrpoved, returns the average of
@@ -58,6 +58,10 @@ public class StudentRecord
     */
    public double finalAverage()
    {
-      return 0; //here so the class compiles
-   } 
+       if (this.hasImproved()){
+        return this.average(scores.length/2, scores.length-1);
+   } else{
+    return this.average(0,scores.length-1);
+    }
+}
 }
